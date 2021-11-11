@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<body>
+<h2>JavaScript String Methods</h2>
+<h1>Leonardo Copello</h1>
+<h2>teste</h2>
+<p id="demo"></p>
+<script>
+let text = "Leonardo Copello Copello"
+let textNew = text.replace(/Copello/g,"Teixeira");
+let textNovo = text.replace(/Copello/g,"Gomes");
+textNew = textNew.toUpperCase();
+textNovo = textNovo.toUpperCase();
+document.getElementById("demo").innerHTML = textNew + " " + textNovo;
+</script>
+</body>
+</html>
